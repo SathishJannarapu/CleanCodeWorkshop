@@ -9,8 +9,6 @@ import java.util.concurrent.TimeUnit;
 
 public class MemoryLeak {
 
-	
-
 	public static void main(String args[]) {
 		final ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(1);
 		final Deque<BigDecimal> numbers = new LinkedBlockingDeque<>();
